@@ -1,7 +1,6 @@
 getgenv().Config = {
     Custom_Items = { -- CUSTOM ITEMS
-        { Class = "Lootbox", Item = "Global Event Gift", Price = 800000 },
-        { Class = "Misc", Item = "Mini Pinata", Price = 25000 },
+        { Class = "Misc", Item = "Tech Key", Price = 20000 },
     },
     Set_Items = { -- PRICE THRESHOLDS
         Any_Titanic_Under = 5000000000,
@@ -34,7 +33,7 @@ getgenv().Config = {
     Scripts = { -- SCRIPT SETTINGS
         Auction = {
             Auction_Sniper = false, -- Use Auction Sniper
-            View_Board = true, -- Camera facing Auction Board
+            View_Board = false, -- Camera facing Auction Board
             Wait_Out_Listings = false, -- Waits Out Listings
         },
         Booth = {
